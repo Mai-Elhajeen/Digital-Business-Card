@@ -1,3 +1,9 @@
+/* **************** base **************** */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +16,180 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
+}
+
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+/* **************** root **************** */
+.root {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background: #1C1C1C;
+    padding: 48px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* **************** start cards **************** */
+.box {
+    flex-basis: calc(50% - 32px);
+    margin: 0 16px;
+    margin-bottom: 16px;
+    padding: 32px;
+    background: #23252C;
+}
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #1A1B21;
+    border-radius: 10px;
+}
+.head {
+    flex-basis: 35%;
+}
+.head img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.main {
+    padding: 16px 32px;
+    flex-basis: 50%;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h1 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.info span {
+    color: #F3BF99;
+    font-size: 13px;
+}
+.info p {
+    color: #F5F5F5;
+    font-size: 11px;
+    padding-top: 8px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.buttons button {
+    width: 115px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.buttons button i {
+    color: #1E1F26;
+    padding-right: 4px;
+    font-size: 16px;
+}
+.buttons button span{
+    color: #374151;
+}
+.linkedin-btn, .linkedin-btn i, .linkedin-btn span {
+    color: #fff !important;
+    background: #5093E2;
+}
+.about,
+.interests {
+    margin-bottom: 24px;
+}
+.about h2,
+.interests h2{
+    font-size: 16px;
+    color: #F5F5F5;
+    padding-bottom: 8px;
+}
+
+.about p, 
+.interests p{
+    color: #DCDCDC;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.footer {
+    flex-basis: 15%;
+    width: 100%;
+    height: 100%;
+    background: #161619;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0 0 10px 10px;
+    padding: 24px;
+}
+.footer a{
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: #918E9B;
+    color: #161619;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* component 2 */
+.box-2 .email-btn {
+    width: 100%;
+}
+
+/* component 3 */
+.light .card {
+    background: #F5F5F5;
+}
+.light h1 {
+    color: #2B283A;
+}
+
+.light p {
+    color: #4A4E74;
+}
+.light button {
+    border: 1px solid #D1D5DB;
+}
+.light .about h2,
+.light .interests h2 {
+    color: #2B283A; 
+}
+.light .about p, 
+.light .interests p {
+    color: #4A4E74;
+}
+
+.light .footer {
+    background: #D5D4D8;
+}
+.light .footer a {
+    color: #D5D4D8;
+}
+
+/* component 4 */
+.box-4 .email-btn{
+    width: 100%;
 }
