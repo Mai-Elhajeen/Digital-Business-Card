@@ -1,8 +1,8 @@
 import './style.css';
-import Option1 from './components/Option-1'
-import Option2 from './components/Option-2'
-import Option3 from './components/Option-3'
-import Option4 from './components/Option-4'
+import Option1 from './components/option-1'
+import Option2 from './components/option-2'
+import Option3 from './components/option-3'
+import Option4 from './components/option-4'
 
 
 function App() {
