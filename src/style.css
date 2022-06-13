@@ -158,3 +158,33 @@ img {
 .box-2 .email-btn{
     width: 100%;
 }
+
+/* component 3 */
+.light .card {
+    background: #F5F5F5;
+}
+.light h1 {
+    color: #2B283A;
+}
+
+.light p {
+    color: #4A4E74;
+}
+.light button {
+    border: 1px solid #D1D5DB;
+}
+.light .about h2,
+.light .interests h2 {
+    color: #2B283A; 
+}
+.light .about p, 
+.light .interests p {
+    color: #4A4E74;
+}
+
+.light .footer {
+    background: #D5D4D8;
+}
+.light .footer a {
+    color: #D5D4D8;
+}
