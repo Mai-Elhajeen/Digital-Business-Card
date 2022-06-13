@@ -4,7 +4,7 @@ import React from 'react'
 import person from '../img/person.jpg'
 function Option1() {
     return (
-        <div className='box-1'>
+        <div className='box box-1'>
             <div className='card'>
                 <div className='head'>
                     <img src= {person} alt='person-card' />
