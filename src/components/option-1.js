@@ -44,19 +44,19 @@ function Option1() {
 
                 <div className='footer'>
                     <a href='#' target='_blank'>
-                        <i class="ri-twitter-line"></i>
+                        <i class="ri-twitter-fill"></i>
                     </a>
 
                     <a href='#' target='_blank'>
-                        <i class="ri-facebook-line"></i>
+                        <i class="ri-github-fill"></i>
                     </a>
 
                     <a href='#' target='_blank'>
-                        <i class="ri-github-line"></i>
+                        <i class="ri-facebook-fill"></i>
                     </a>
 
                     <a href='#' target='_blank'>
-                        <i class="ri-instagram-line"></i>
+                        <i class="ri-instagram-fill"></i>
                     </a>
                 </div>
             </div>
