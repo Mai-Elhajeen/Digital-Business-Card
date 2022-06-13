@@ -58,7 +58,7 @@ img {
 }
 
 .main {
-    padding: 16px;
+    padding: 16px 32px;
     flex-basis: 50%;
 }
 
