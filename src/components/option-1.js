@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react'
 import person from '../img/person.jpg'
 function Option1() {
@@ -41,7 +43,21 @@ function Option1() {
                 </div>
 
                 <div className='footer'>
+                    <a href='#' target='_blank'>
+                        <i class="ri-twitter-line"></i>
+                    </a>
 
+                    <a href='#' target='_blank'>
+                        <i class="ri-facebook-line"></i>
+                    </a>
+
+                    <a href='#' target='_blank'>
+                        <i class="ri-github-line"></i>
+                    </a>
+
+                    <a href='#' target='_blank'>
+                        <i class="ri-instagram-line"></i>
+                    </a>
                 </div>
             </div>
         </div>
