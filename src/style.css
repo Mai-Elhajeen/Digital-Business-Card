@@ -98,6 +98,7 @@ img {
     justify-content: center;
     cursor: pointer;
 }
+
 .buttons button i {
     color: #1E1F26;
     padding-right: 4px;
@@ -105,6 +106,10 @@ img {
 }
 .buttons button span{
     color: #374151;
+}
+.linkedin-btn, .linkedin-btn i, .linkedin-btn span {
+    color: #fff !important;
+    background: #5093E2;
 }
 .about,
 .interests {

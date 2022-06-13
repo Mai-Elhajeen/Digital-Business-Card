@@ -20,7 +20,7 @@ function Option1() {
                                 <i class="ri-mail-fill"></i>
                                 <span>Email</span>
                             </button>
-                            <button>
+                            <button className='linkedin-btn'>
                                 <i class="ri-linkedin-box-fill"></i>
                                 <span>LinkedIn</span>
                             </button>
